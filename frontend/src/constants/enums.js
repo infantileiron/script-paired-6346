@@ -1,1 +1,2 @@
-export const TEAMS=['企业一组','企业二组'];export const DECISIONS=['继续试点','分组采纳','暂缓采纳'];export const STATES=['queued','running','done','failed'];export const ROLES=['admin','analyst','viewer'];
+export const TEAMS=['企业一组','企业二组'];export const DECISIONS=['继续试点','分组采纳','暂缓采纳'];export const STATES=['queued','running','done','failed'];export const ROLES=['admin','analyst','viewer'];export const MONITOR_STATES=['active','paused'];export const JOB_STATES=['pending','running','done','failed'];export const ALERT_STATES=['active','confirmed','revoked'];
+export const JOB_LABELS={pending:'待算',running:'计算中',done:'可用',failed:'失败'};export const ALERT_LABELS={active:'待确认',confirmed:'已确认',revoked:'已撤销'};
